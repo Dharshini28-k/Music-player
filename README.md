@@ -1,35 +1,51 @@
-# 🎵 Music Player
+# 🎵 Music Player Web App
 
-A simple and user-friendly **desktop Music Player application** built using **Python**, **Tkinter**, and **Pygame**. The application allows users to open and play music files through an easy-to-use graphical interface.
+A modern and responsive web-based music player built with **HTML, CSS, and JavaScript**.  
+The application provides a simple and user-friendly interface for playing and managing music directly in the browser.
+
+## 🚀 Live Demo
+
+**[Music Player – Live Demo](https://music-player-omega-peach.vercel.app/)**
 
 ## ✨ Features
 
-* 📂 Open and add multiple music files
-* ▶️ Play selected songs
-* ⏸️ Pause and resume music
-* ⏹️ Stop music playback
-* ⏭️ Play the next song
-* ⏮️ Play the previous song
-* 📃 View the music playlist
-* 🎵 Supports MP3 and WAV audio files
+- ▶️ Play music
+- ⏸️ Pause and resume playback
+- ⏹️ Stop playback
+- ⏮️ Previous track
+- ⏭️ Next track
+- 🔊 Volume control
+- ⏱️ Interactive progress bar
+- 🎶 Playlist support
+- 📂 Select multiple MP3/WAV audio files
+- 🔄 Automatically play the next track
+- 📱 Responsive and mobile-friendly interface
+- 🎨 Clean and modern user interface
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **Tkinter** – For the graphical user interface
-* **Pygame** – For audio playback
+- **HTML5** – Structure and audio elements
+- **CSS3** – Styling, layout, animations, and responsive design
+- **JavaScript** – Music controls, playlist management, and audio interaction
+- **HTML5 Audio API** – Browser-based audio playback
 
 ## 📁 Project Structure
 
 ```text
 Music-player/
 │
+├── songs/
+│   ├── Chella Kutty Unna Kaana (Bit).mp3
+│   └── Paapa Paattu.mp3
+│
+├── index.html
+├── style.css
+├── script.js
 ├── Music player APP.py
-├── Chella Kutty Unna Kaana (Bit).mp3
-└── Paapa Paattu.mp3
+└── README.md
 ```
 
-## ⚙️ Installation
+## ▶️ Run Locally
 
 ### 1. Clone the Repository
 
@@ -37,52 +53,55 @@ Music-player/
 git clone https://github.com/Dharshini28-k/Music-player.git
 ```
 
-### 2. Navigate to the Project Folder
+### 2. Open the Project
 
 ```bash
 cd Music-player
 ```
 
-### 3. Install Required Dependencies
+### 3. Run the Application
 
-```bash
-pip install pygame
-```
+Open `index.html` in a web browser or use **Live Server** in Visual Studio Code.
 
-> Tkinter is included with most Python installations.
+### 4. Play Music
 
-## ▶️ How to Run
+1. Click **Open Music**
+2. Select one or more MP3/WAV files
+3. Select a song from the playlist
+4. Click **Play**
 
-Run the following command:
+## 🎮 Music Controls
 
-```bash
-python "Music player APP.py"
-```
+| Control | Function |
+|---|---|
+| ▶️ Play | Play the selected song |
+| ⏸️ Pause | Pause the current song |
+| ⏹️ Stop | Stop playback |
+| ⏮️ Previous | Play the previous song |
+| ⏭️ Next | Play the next song |
+| 🔊 Volume | Adjust audio volume |
+| ⏱️ Progress Bar | Seek through the current song |
 
-## 🎮 How to Use
+## 🌐 Deployment
 
-1. Click the **Open** button.
-2. Select one or more MP3 or WAV files.
-3. Choose a song from the playlist.
-4. Click **Play** to start the music.
-5. Use **Pause**, **Stop**, **Next**, and **Previous** buttons to control playback.
+The web application is deployed using **Vercel**.
 
-## 🔮 Future Enhancements
+**Live Website:**  
+https://music-player-omega-peach.vercel.app/
 
-* Volume control
-* Song progress bar
-* Shuffle option
-* Repeat mode
-* Dark mode interface
-* Album cover display
-* Improved playlist management
+## 📌 Note
+
+The **Open Music** option allows users to select audio files from their device.
+
+Selected local files are played directly in the browser and are not uploaded to a server.
 
 ## 👩‍💻 Author
 
-**Dharshini Kumar**
+**Dharshini K**
 
-GitHub: [Dharshini28-k](https://github.com/Dharshini28-k?utm_source=chatgpt.com)
+**GitHub:**  
+https://github.com/Dharshini28-k
 
-## 📜 License
+---
 
-This project is created for educational and learning purposes.
+⭐ If you like this project, consider giving it a star on GitHub!
